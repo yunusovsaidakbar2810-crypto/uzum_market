@@ -4,10 +4,8 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body {
-  background: white;
+@media (max-width: 1200px) {
 }
-
 a {
   color: #333;
   text-decoration: none;
@@ -204,7 +202,6 @@ a {
 .text3 {
   font-size: 14px;
   font-weight: 500;
-  /* margin-bottom: 20px; */
   line-height: 16.8px;
 }
 .narx {
@@ -217,25 +214,21 @@ a {
 .rasm1 {
   height: 300px;
 }
-
-.btn_box {
-  gap: 20px;
-  display: flex;
-  align-items: center;
-}
 .but {
-  width: 35px;
-  height: 35px;
+  width: 200px;
+  height: 30px;
+  color: white;
   cursor: pointer;
-  transition: 0.4s;
-  border-radius: 50%;
+  transition: 0.3s;
   text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
   border: 1px solid #ddd;
-  background-color: white;
+  background-color: blueviolet;
 }
 .but:hover {
   color: white;
-  background-color: grey;
+  background-color: rgb(165, 82, 242);
 }
 .icon_yu {
   top: 12px;
