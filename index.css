@@ -5,6 +5,193 @@
   font-family: sans-serif;
 }
 @media (max-width: 1200px) {
+  .gajet1 h2 {
+    position: relative;
+    right: 13%;
+  }
+  .gajet2 {
+    position: relative;
+    right: 3.5%;
+  }
+  .box2,
+  .box3,
+  .box4 {
+    font-size: 12px;
+  }
+  .boxx1 {
+    gap: 9px !important;
+    height: 1px 1px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 992px) {
+  .box2,
+  .box3,
+  .box4 {
+    font-size: 12px;
+  }
+  .gajet1 h2 {
+    position: relative;
+    right: 16%;
+  }
+  .gajet2 {
+    position: relative;
+    right: 1%;
+  }
+  .sec_tover {
+    display: grid;
+    flex-direction: column;
+  }
+  .box1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .boxx1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .yana {
+    width: 400px !important;
+  }
+  .yana1 {
+    width: 400px !important;
+  }
+  /* Footer */
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .box {
+    width: 45%;
+  }
+
+  .last_div2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .hed_1 {
+    display: none;
+  }
+
+  .box5 .box1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .box6 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .boxx1 {
+    display: none;
+  }
+
+  .sec_div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card_box {
+    width: 45%;
+  }
+  /* Footer */
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .apps {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .chap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .ong {
+    text-align: center;
+  }
+  /* but */
+  .yana {
+    width: 400px !important;
+  }
+  .yana1 {
+    width: 400px !important;
+  }
+}
+@media (max-width: 576px) {
+  .card_box {
+    width: 90%;
+  }
+
+  .box6 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box5_btn {
+    width: 100%;
+  }
+  /* but */
+  .yana {
+    width: 400px !important;
+  }
+  .yana1 {
+    width: 400px !important;
+  }
+
+  /* Footer */
+  .box h4 {
+    font-size: 18px;
+  }
+
+  .box p,
+  .chap1,
+  .ong {
+    font-size: 14px;
+  }
+
+  .apps {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .icons {
+    font-size: 24px;
+    gap: 15px;
+  }
+  .yana {
+    width: 400px;
+  }
+  .yana1 {
+    width: 400px;
+  }
 }
 a {
   color: #333;
@@ -16,10 +203,32 @@ a {
   margin: auto;
   max-width: 1400px;
 }
+.boxx1 {
+  width: 90%;
+  margin: auto;
+  padding: 15px 15px;
+
+  gap: 28px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+.boxx1 a {
+  color: grey;
+  white-space: nowrap;
+}
+.tur {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.boxx1 a:hover {
+  color: #6b2cff;
+}
 
 .hed_1 {
   font-size: 14px;
-  background: #f4f4f4;
+  background-color: #f4f4f4;
   border-bottom: 1px solid #eee;
 }
 
@@ -33,9 +242,9 @@ a {
 .box2,
 .box3,
 .box4 {
+  gap: 20px;
   display: flex;
   align-items: center;
-  gap: 20px;
 }
 
 .box2 i {
@@ -55,7 +264,6 @@ a {
 }
 
 .box5 .box1 {
-  gap: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,9 +298,9 @@ a {
 }
 
 .box6 a {
-  gap: 8px;
+  gap: 5px;
   display: flex;
-  color: #333;
+  color: black;
   font-size: 15px;
   align-items: center;
 }
@@ -102,35 +310,10 @@ a {
   color: #6b2cff;
 }
 
-.tur {
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-
-.tur .box1 {
-  gap: 28px;
-  height: 54px;
-  display: flex;
-  overflow: auto;
-  align-items: center;
-}
-
-.tur .box1::-webkit-scrollbar {
-  display: none;
-}
-
-.tur a {
-  color: grey;
-  font-size: 15px;
-  transition: 0.3s;
-  white-space: nowrap;
-}
-.tur a:hover {
-  color: #6b2cff;
-}
-
 /* Section */
-
+.nasiya1 {
+  width: 100%;
+}
 .sec_tover {
   padding-top: 50px;
 }
@@ -138,16 +321,11 @@ a {
   margin-left: 145px;
   padding-bottom: 50px;
 }
-.gajet h2 {
-  margin-top: 91px;
-  margin-left: 145px;
-  padding-bottom: 50px;
-}
-
 .sec_div {
   gap: 20px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   cursor: pointer;
   justify-content: center;
 }
@@ -222,7 +400,7 @@ a {
   transition: 0.3s;
   text-align: center;
   margin-top: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid #ddd;
   background-color: blueviolet;
 }
